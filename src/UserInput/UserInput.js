@@ -1,14 +1,14 @@
-import React from 'react';
-import "./UserInput.css"
-const UserInput = (props) =>{
-    return (
-        <input 
-            className="UserInput"
-            type="text" 
-            onChange={props.changed}
-            value={props.currentName}
-            ></input>
-    );
-}
+import React from "react";
+import "./UserInput.css";
+const userInput = props => {
+  return (
+    <input
+      className="UserInput"
+      type="text"
+      onChange={props.changed}
+      value={props.currentName}
+    ></input>
+  );
+};
 
-export default UserInput;
+export default userInput;
